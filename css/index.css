@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+.main-header {
+    background: url(https://portal.andina.pe/EDPfotografia3/Thumbnail/2016/02/09/000340100W.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 100vh; 
+    position: relative;
+    background-color:rgb(40,40,40);
+    background-blend-mode:soft-light;
+    
+}
+a{
+    text-decoration:none ;
+}
+.main-nav{
+    display: flex;
+    background-color: rgba(0,0,0,0.6); 
+}
+.logo{
+    
+    display :flex;
+    justify-content:center;
+    align-items: center;
+    margin-left:  100px; 
+    padding: 20px 50px;
+    font-size: 1.3rem;
+    color:aliceblue;
+}
+ul{
+    
+    display:flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul a {
+    display: inline-block;
+    padding: 20px 50px;
+    margin-right: 100px;
+    font-size: 1.3rem;
+    color:white;
+}
+a:hover {
+    background-color:rgb(69, 40, 180);
+}
+.content-header{
+    color:white;
+    
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    text-align: center;
+}
+.content-header h1{
+    font-size:7rem;
+    margin: 15px 20px;
+}
+.content-header p{
+    font-size:1.5rem
+
+}
+.content-header a{
+    font-size:2.3rem;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color:rgb(69, 78, 241);
+    color:aliceblue;
+    
+}
+.content-header a:hover{
+    background-color:rgb(69, 40, 180);
+    border :3px solid white;
+}
